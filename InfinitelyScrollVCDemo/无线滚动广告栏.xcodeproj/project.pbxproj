@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231CAA011C89AA8900C42BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CAA001C89AA8900C42BD8 /* AppDelegate.swift */; };
+		231CAA061C89AA8900C42BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231CAA041C89AA8900C42BD8 /* Main.storyboard */; };
+		231CAA081C89AA8900C42BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231CAA071C89AA8900C42BD8 /* Assets.xcassets */; };
+		231CAA0B1C89AA8900C42BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231CAA091C89AA8900C42BD8 /* LaunchScreen.storyboard */; };
+		231CAA161C89AA8900C42BD8 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CAA151C89AA8900C42BD8 /* _______Tests.swift */; };
+		231CAA211C89AA8900C42BD8 /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CAA201C89AA8900C42BD8 /* _______UITests.swift */; };
+		232CDBD61C8F0774005E27C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CDBD51C8F0774005E27C0 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		232CDBDA1C8F0798005E27C0 /* InfinitelyScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 232CDBD81C8F0798005E27C0 /* InfinitelyScrollView.bundle */; settings = {ASSET_TAGS = (); }; };
+		232CDBDB1C8F0798005E27C0 /* InfinitelyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CDBD91C8F0798005E27C0 /* InfinitelyScrollView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231CAA121C89AA8900C42BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231CA9F51C89AA8900C42BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231CA9FC1C89AA8900C42BD8;
+			remoteInfo = "无线滚动广告栏";
+		};
+		231CAA1D1C89AA8900C42BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231CA9F51C89AA8900C42BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231CA9FC1C89AA8900C42BD8;
+			remoteInfo = "无线滚动广告栏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231CA9FD1C89AA8900C42BD8 /* 无线滚动广告栏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无线滚动广告栏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231CAA001C89AA8900C42BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231CAA051C89AA8900C42BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		231CAA071C89AA8900C42BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231CAA0A1C89AA8900C42BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231CAA0C1C89AA8900C42BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231CAA111C89AA8900C42BD8 /* 无线滚动广告栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无线滚动广告栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231CAA151C89AA8900C42BD8 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		231CAA171C89AA8900C42BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231CAA1C1C89AA8900C42BD8 /* 无线滚动广告栏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无线滚动广告栏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231CAA201C89AA8900C42BD8 /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
+		231CAA221C89AA8900C42BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232CDBD51C8F0774005E27C0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
+		232CDBD81C8F0798005E27C0 /* InfinitelyScrollView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = InfinitelyScrollView.bundle; sourceTree = "<group>"; };
+		232CDBD91C8F0798005E27C0 /* InfinitelyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfinitelyScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231CA9FA1C89AA8900C42BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231CAA0E1C89AA8900C42BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231CAA191C89AA8900C42BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231CA9F41C89AA8900C42BD8 = {
+			isa = PBXGroup;
+			children = (
+				231CA9FF1C89AA8900C42BD8 /* 无线滚动广告栏 */,
+				231CAA141C89AA8900C42BD8 /* 无线滚动广告栏Tests */,
+				231CAA1F1C89AA8900C42BD8 /* 无线滚动广告栏UITests */,
+				231CA9FE1C89AA8900C42BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231CA9FE1C89AA8900C42BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231CA9FD1C89AA8900C42BD8 /* 无线滚动广告栏.app */,
+				231CAA111C89AA8900C42BD8 /* 无线滚动广告栏Tests.xctest */,
+				231CAA1C1C89AA8900C42BD8 /* 无线滚动广告栏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231CA9FF1C89AA8900C42BD8 /* 无线滚动广告栏 */ = {
+			isa = PBXGroup;
+			children = (
+				232CDBD71C8F0798005E27C0 /* InfinitelyScrollView */,
+				231CAA001C89AA8900C42BD8 /* AppDelegate.swift */,
+				231CAA041C89AA8900C42BD8 /* Main.storyboard */,
+				231CAA071C89AA8900C42BD8 /* Assets.xcassets */,
+				231CAA091C89AA8900C42BD8 /* LaunchScreen.storyboard */,
+				231CAA0C1C89AA8900C42BD8 /* Info.plist */,
+				232CDBD51C8F0774005E27C0 /* ViewController.swift */,
+			);
+			path = "无线滚动广告栏";
+			sourceTree = "<group>";
+		};
+		231CAA141C89AA8900C42BD8 /* 无线滚动广告栏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				231CAA151C89AA8900C42BD8 /* _______Tests.swift */,
+				231CAA171C89AA8900C42BD8 /* Info.plist */,
+			);
+			path = "无线滚动广告栏Tests";
+			sourceTree = "<group>";
+		};
+		231CAA1F1C89AA8900C42BD8 /* 无线滚动广告栏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				231CAA201C89AA8900C42BD8 /* _______UITests.swift */,
+				231CAA221C89AA8900C42BD8 /* Info.plist */,
+			);
+			path = "无线滚动广告栏UITests";
+			sourceTree = "<group>";
+		};
+		232CDBD71C8F0798005E27C0 /* InfinitelyScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				232CDBD81C8F0798005E27C0 /* InfinitelyScrollView.bundle */,
+				232CDBD91C8F0798005E27C0 /* InfinitelyScrollView.swift */,
+			);
+			name = InfinitelyScrollView;
+			path = ../../InfinitelyScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231CA9FC1C89AA8900C42BD8 /* 无线滚动广告栏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231CAA251C89AA8900C42BD8 /* Build configuration list for PBXNativeTarget "无线滚动广告栏" */;
+			buildPhases = (
+				231CA9F91C89AA8900C42BD8 /* Sources */,
+				231CA9FA1C89AA8900C42BD8 /* Frameworks */,
+				231CA9FB1C89AA8900C42BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无线滚动广告栏";
+			productName = "无线滚动广告栏";
+			productReference = 231CA9FD1C89AA8900C42BD8 /* 无线滚动广告栏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		231CAA101C89AA8900C42BD8 /* 无线滚动广告栏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231CAA281C89AA8900C42BD8 /* Build configuration list for PBXNativeTarget "无线滚动广告栏Tests" */;
+			buildPhases = (
+				231CAA0D1C89AA8900C42BD8 /* Sources */,
+				231CAA0E1C89AA8900C42BD8 /* Frameworks */,
+				231CAA0F1C89AA8900C42BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231CAA131C89AA8900C42BD8 /* PBXTargetDependency */,
+			);
+			name = "无线滚动广告栏Tests";
+			productName = "无线滚动广告栏Tests";
+			productReference = 231CAA111C89AA8900C42BD8 /* 无线滚动广告栏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		231CAA1B1C89AA8900C42BD8 /* 无线滚动广告栏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231CAA2B1C89AA8900C42BD8 /* Build configuration list for PBXNativeTarget "无线滚动广告栏UITests" */;
+			buildPhases = (
+				231CAA181C89AA8900C42BD8 /* Sources */,
+				231CAA191C89AA8900C42BD8 /* Frameworks */,
+				231CAA1A1C89AA8900C42BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231CAA1E1C89AA8900C42BD8 /* PBXTargetDependency */,
+			);
+			name = "无线滚动广告栏UITests";
+			productName = "无线滚动广告栏UITests";
+			productReference = 231CAA1C1C89AA8900C42BD8 /* 无线滚动广告栏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231CA9F51C89AA8900C42BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "高明";
+				TargetAttributes = {
+					231CA9FC1C89AA8900C42BD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8UKKHM98ZJ;
+					};
+					231CAA101C89AA8900C42BD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8UKKHM98ZJ;
+						TestTargetID = 231CA9FC1C89AA8900C42BD8;
+					};
+					231CAA1B1C89AA8900C42BD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8UKKHM98ZJ;
+						TestTargetID = 231CA9FC1C89AA8900C42BD8;
+					};
+				};
+			};
+			buildConfigurationList = 231CA9F81C89AA8900C42BD8 /* Build configuration list for PBXProject "无线滚动广告栏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231CA9F41C89AA8900C42BD8;
+			productRefGroup = 231CA9FE1C89AA8900C42BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231CA9FC1C89AA8900C42BD8 /* 无线滚动广告栏 */,
+				231CAA101C89AA8900C42BD8 /* 无线滚动广告栏Tests */,
+				231CAA1B1C89AA8900C42BD8 /* 无线滚动广告栏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231CA9FB1C89AA8900C42BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232CDBDA1C8F0798005E27C0 /* InfinitelyScrollView.bundle in Resources */,
+				231CAA0B1C89AA8900C42BD8 /* LaunchScreen.storyboard in Resources */,
+				231CAA081C89AA8900C42BD8 /* Assets.xcassets in Resources */,
+				231CAA061C89AA8900C42BD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231CAA0F1C89AA8900C42BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231CAA1A1C89AA8900C42BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231CA9F91C89AA8900C42BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232CDBD61C8F0774005E27C0 /* ViewController.swift in Sources */,
+				232CDBDB1C8F0798005E27C0 /* InfinitelyScrollView.swift in Sources */,
+				231CAA011C89AA8900C42BD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231CAA0D1C89AA8900C42BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231CAA161C89AA8900C42BD8 /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231CAA181C89AA8900C42BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231CAA211C89AA8900C42BD8 /* _______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		231CAA131C89AA8900C42BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231CA9FC1C89AA8900C42BD8 /* 无线滚动广告栏 */;
+			targetProxy = 231CAA121C89AA8900C42BD8 /* PBXContainerItemProxy */;
+		};
+		231CAA1E1C89AA8900C42BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231CA9FC1C89AA8900C42BD8 /* 无线滚动广告栏 */;
+			targetProxy = 231CAA1D1C89AA8900C42BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		231CAA041C89AA8900C42BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231CAA051C89AA8900C42BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		231CAA091C89AA8900C42BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231CAA0A1C89AA8900C42BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231CAA231C89AA8900C42BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231CAA241C89AA8900C42BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231CAA261C89AA8900C42BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "无线滚动广告栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		231CAA271C89AA8900C42BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "无线滚动广告栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		231CAA291C89AA8900C42BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "无线滚动广告栏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/无线滚动广告栏.app/无线滚动广告栏";
+			};
+			name = Debug;
+		};
+		231CAA2A1C89AA8900C42BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "无线滚动广告栏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/无线滚动广告栏.app/无线滚动广告栏";
+			};
+			name = Release;
+		};
+		231CAA2C1C89AA8900C42BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "无线滚动广告栏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "无线滚动广告栏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		231CAA2D1C89AA8900C42BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "无线滚动广告栏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "无线滚动广告栏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231CA9F81C89AA8900C42BD8 /* Build configuration list for PBXProject "无线滚动广告栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231CAA231C89AA8900C42BD8 /* Debug */,
+				231CAA241C89AA8900C42BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231CAA251C89AA8900C42BD8 /* Build configuration list for PBXNativeTarget "无线滚动广告栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231CAA261C89AA8900C42BD8 /* Debug */,
+				231CAA271C89AA8900C42BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231CAA281C89AA8900C42BD8 /* Build configuration list for PBXNativeTarget "无线滚动广告栏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231CAA291C89AA8900C42BD8 /* Debug */,
+				231CAA2A1C89AA8900C42BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231CAA2B1C89AA8900C42BD8 /* Build configuration list for PBXNativeTarget "无线滚动广告栏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231CAA2C1C89AA8900C42BD8 /* Debug */,
+				231CAA2D1C89AA8900C42BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231CA9F51C89AA8900C42BD8 /* Project object */;
+}
