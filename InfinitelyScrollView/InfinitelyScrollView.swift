@@ -5,7 +5,16 @@
 //  Created by 高明 on 16/3/4.
 //  Copyright © 2016年 高明. All rights reserved.
 //
-
+/*
+git上传到oschina命令行输入
+1. cd~
+2. mkdir.ssh
+3. cd .ssh
+4. ssh-keygen -t rsa -C xxx@sina.com(注册git的邮箱
+5. cat ~/.ssh/id_rsa.pub
+6. ssh -T git@github.com如果是oschina就改成git@git.oschina.net
+7. yes
+*/
 import UIKit
 
 class InfinitelyScrollView: UIView, UIScrollViewDelegate{
